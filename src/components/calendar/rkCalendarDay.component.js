@@ -89,15 +89,18 @@ const styles = RkStyleSheet.create(theme => ({
     backgroundColor: theme.colors.button.success,
   },
   textContainerDisabled: {
+    backgroundColor: theme.colors.overlay,
   },
   text: {
     fontSize: theme.fonts.sizes.large,
-    color: theme.colors.button.base,
+    color: theme.colors.text.base,
+    fontWeight: '300',
   },
   textSelected: {
     fontWeight: 'bold',
-    color: theme.colors.button.text,
+    color: theme.colors.text.inverse,
   },
   textDisabled: {
+    color: theme.colors.text.inverse,
   },
 }));
